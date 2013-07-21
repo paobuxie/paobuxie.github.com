@@ -1,0 +1,18 @@
+---
+layout: default
+title: 跑步鞋，跑鞋，跑步鞋品牌，跑步鞋推荐
+---
+
+<div id="home">
+   <!-- Main hero unit for a primary marketing message or call to action -->
+   <div class="hero-unit">
+     <h1>Hello, world!</h1>
+     <p>跑步鞋CC是一个介绍跑步鞋的网站，并将神奇般地存在着！</p>
+     <p><a href="#" class="btn btn-primary btn-large">详细了解 &raquo;</a></p>
+   </div>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
