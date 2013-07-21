@@ -12,7 +12,12 @@ title: 跑步鞋，跑步，跑鞋，跑步鞋品牌，跑步鞋推荐
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.description }}
       <hr>
-      <div class="date">发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}} <a class="btn pull-right" href="{{ BASE_PATH }}{{ post.url }}">阅读全文</a></div>
+      <div class="postinfo">
+        标签：<div class="btn btn-info btn-mini">{{ post.tags | join: '</div> <div class="btn btn-info btn-mini">'}}</div>
+        <div class="date pull-right">
+          发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}
+        </div>
+      </div>
     </li>
     {% endfor %}
   </ul>
