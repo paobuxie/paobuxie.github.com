@@ -19,6 +19,14 @@ ul.posts {
   color: #6e6e6e;
 }
 
+.flink { 
+  position: absolute;
+  bottom: 70px;
+  clear:both;
+  width:910px;
+  padding: 25px 15px;
+}
+
 .footer { 
   position: absolute;
   bottom: 0;
