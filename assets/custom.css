@@ -19,7 +19,8 @@ ul.posts {
   color: #6e6e6e;
 }
 
-.flink { 
+.flink {
+  float:left;
   position: absolute;
   bottom: 80px;
   width:910px;
