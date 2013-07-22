@@ -22,5 +22,4 @@ title: 跑步鞋，跑步，跑鞋，跑步鞋品牌，跑步鞋推荐
     {% endfor %}
   </ul>
   <div class="sidebar">
-    <strong>友情链接</strong>
   </div>
