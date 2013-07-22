@@ -22,7 +22,6 @@ ul.posts {
 .flink { 
   position: absolute;
   bottom: 70px;
-  clear:both;
   width:910px;
 }
 
