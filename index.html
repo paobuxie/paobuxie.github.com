@@ -4,11 +4,13 @@ title: 跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌
 tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个介绍跑步鞋的网站，并将神奇般地存在着！"
 ---
-
-   <div class="hero-unit">
-     <p>跑步鞋CC是一个介绍跑步鞋的网站，并将神奇般地存在着！<a href="about.html" class="btn btn-primary btn-large pull-right">详细了解 &raquo;</a></p>
-   </div>
-  <div class="main">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>欢迎</h1>
+        <p>跑步鞋CC是一个介绍跑步鞋的网站，并将神奇般地存在着！</p>
+        <p><a href="about.html" class="btn btn-primary btn-large">详细了解 &raquo;</a></p>
+      </div>
+  
   <ul class="posts">
     {% for post in site.posts %}
     <li>
@@ -16,17 +18,14 @@ description: "跑步鞋CC是一个介绍跑步鞋的网站，并将神奇般地�
       {{ post.description }}
       <hr>
       <div class="postinfo">
-        标签：<div class="btn btn-info btn-mini">{{ post.tags | join: '</div> <div class="btn btn-info btn-mini">'}}</div>
-        <div class="date pull-right">
+        标签：<div class="btn btn-info btn-small">{{ post.tags | join: '</div> <div class="btn btn-info btn-small">'}}</div>
+        <div class="pull-right">
           发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}
         </div>
       </div>
     </li>
     {% endfor %}
   </ul>
+
   <div class="sidebar pull-right">
-  </div>
-  <div class="flink">
-    <strong>友情链接：</strong>
-  </div>
   </div>
