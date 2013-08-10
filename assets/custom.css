@@ -12,20 +12,33 @@ a {
 
 
 ul.posts {
+  float: left;
   width: 70%;
+  padding: 0 10px;
   list-style-type: none;
   font-size: 17px;
 }
 
+ul.posts li {
+  
+}
+
+hr {
+  margin-bottom: 10px;
+}
 .postinfo {
-  margin: -15px 10px;
   color: #6e6e6e;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
 }
 
 .flink {
   position: absolute;
   bottom: 80px;
-  width:910px;
+  width: 100%;
 }
 
 .footer { 
