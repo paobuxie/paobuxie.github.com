@@ -4,7 +4,8 @@ title: 跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌
 tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站 。"
 ---
-  <ul class="posts">
+<div class="pull-left" id="post">
+<ul class="posts well" id="content">
     {% for post in site.posts %}
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -19,7 +20,7 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站 
     </li>
     {% endfor %}
   </ul>
-
+  </div>
   <div class="sidebar pull-right">
     <div class="panel panel-primary">
      <div class="panel-heading">

@@ -2,6 +2,10 @@ a {
   text-decoration: none; 
 }
 
+body {
+  background-image:url('cardboard_flat.png');
+}
+
 #banner {
   color: rgb(255,255,255);
   border-bottom: 0px none;
@@ -12,11 +16,7 @@ a {
 }
 
 ul.posts {
-  float: left;
-  width: 70%;
-  padding: 0 10px;
   list-style-type: none;
-  font-size: 17px;
 }
 
 .postinfo {
