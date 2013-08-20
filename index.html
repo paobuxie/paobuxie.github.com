@@ -15,7 +15,7 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站 
         <div class="pull-right">
           发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}
         </div>
-        作者：<div class="label label-info">{{ post.author }}</div> 标签：<div class="label">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
+        作者：<div class="label label-info">{{ post.author }}</div> 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
       </div>
     </li>
     {% endfor %}
