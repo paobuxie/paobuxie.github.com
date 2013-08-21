@@ -10,6 +10,10 @@ body {
   margin-bottom: 5px;
 }
 
+.well {
+  margin-bottom: 5px;
+}
+
 #banner {
   color: rgb(255,255,255);
   border-bottom: 0px none;
@@ -48,12 +52,4 @@ ul.posts {
 #post {
   width: 70%;
   padding-right: 5px;
-}
-
-#content {
-  margin-bottom: 5px;
-}
-
-#comment {
-  margin-bottom: 5px;
 }
