@@ -21,7 +21,11 @@ body {
   background-color: rgb(55, 159, 21);
   border-color: rgb(47, 137, 18);
   padding: 40px 30px;
-  margin: 0 0 5px;
+  margin: 0 5px 5px 0;
+}
+
+#nb {
+  padding: 0;
 }
 
 ul.posts {
