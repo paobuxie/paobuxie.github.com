@@ -15,6 +15,7 @@ body {
 }
 
 #banner {
+  position: relative;
   width: 40%;
   color: rgb(255,255,255);
   border-bottom: 0px none;
@@ -24,10 +25,26 @@ body {
   margin: 0 5px 5px 0;
 }
 
-#nb {
-  padding: 0 10px;
+#brand {
+  display: block;
+  position: relative;
 }
 
+#nb {
+  position:absolute;
+  padding: 0 10px;
+  top: 0;
+}
+
+#asics {
+  position:absolute;
+  padding: 0 10px;
+  top: 106px;
+}
+.btn-white {
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(227, 227, 227);
+}
 ul.posts {
   list-style-type: none;
 }
