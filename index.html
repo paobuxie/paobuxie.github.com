@@ -4,30 +4,26 @@ title: 跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌
 tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站 。"
 ---
+
 <div class="pull-left" id="post">
-<ul class="posts" id="content">
+  <div class="posts" id="content">
     {% for post in site.posts %}
-    <li>
-      <div class="well">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        {{ post.description }}
-        <hr>
-        <div class="postinfo">
-          <div class="pull-right">
-            发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}
-          </div>
-          作者：<div class="label label-info">{{ post.author }}</div> 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
-        </div>
+    <div class="well">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {{ post.description }}
+      <hr>
+      <div class="postinfo">
+        <div class="pull-right">发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}</div>作者：<div class="label label-info">{{ post.author }}</div> 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
       </div>
-    </li>
+    </div>
     {% endfor %}
-  </ul>
   </div>
+</div>
   <div class="sidebar pull-right">
     <div class="panel panel-primary">
      <div class="panel-heading">
        <h3 class="panel-title">友情链接</h3>
     </div>
     <div style="margin:5px 5px;"><a href="http://www.xmstsm.net/" target="_blank">库存鞋</a></div>
-   </div>
+  </div>
  </div>
