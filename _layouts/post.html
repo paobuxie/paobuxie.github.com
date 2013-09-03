@@ -30,7 +30,8 @@ var duoshuoQuery = {short_name:"paobuxie"};
      <div class="panel-heading">
        <h3 class="panel-title">文章属性</h3>
      </div>
-     <p>作者：{{ page.author }}</p>
+     {% if page.author %}<p>作者：{{ page.author }}</p>{% end if %}
+     {% if page.source %}<p>来源：{{ page.source }}</p>{% end if %}
      <p>标签：{{ page.tags | join:',' }}</p>
      <p>日期：{{ page.date | date:"%Y 年 %m 月 %d 日" }}</p>
     </div>
