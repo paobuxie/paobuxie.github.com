@@ -59,6 +59,11 @@ ul.posts {
   width: 30%;
 }
 
+#attribute {
+  margin: 10px 5px;
+}
+
+
 .flink {
   position: absolute;
   bottom: 80px;
