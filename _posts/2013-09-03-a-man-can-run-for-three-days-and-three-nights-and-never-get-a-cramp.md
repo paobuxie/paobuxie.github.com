@@ -15,9 +15,11 @@ tags: [长跑]
 
 而卡奈兹本人则认为，虽然他相信有可能是他本身的基因导致他适合长跑，但他认为有可能是他身体的低脂肪以及低出汗率，强硷性的饮食以及健康的生长环境，让他身体中乳酸清除的能力比别人略胜一筹。 
 
-来源：http://iservice.libertytimes.com.tw/liveNews/news.php?no=862267
+转载来自：
 
-类似新闻：
+http://iservice.libertytimes.com.tw/liveNews/news.php?no=862267
+
+相关报道：
 
 * http://www.news.com.au/lifestyle/dean-karnazes-is-a-freak-of-nature-he-can-run-for-three-days-and-three-nights-and-never-get-a-cramp/story-fneszs56-1226708065816
 * http://csxb.bandao.cn/data/20130902/html/32/content_5.html
