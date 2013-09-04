@@ -43,6 +43,8 @@ body {
   text-indent: 10px;
   opacity: 0.5;
   z-index: 2;
+  color: #fff;
+  bottom: 0;
 }
 
 .new1 {
