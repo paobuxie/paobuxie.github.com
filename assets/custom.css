@@ -34,9 +34,7 @@ body {
 .word {
   position: absolute;
   width: 100%;
-  left: -1px;
   padding: 0px 1px;
-  top: -1px;
   font-size: 12px;
   text-align: left;
   height: 24px;
@@ -47,21 +45,11 @@ body {
   z-index: 2;
 }
 
-#nb {
-  position:absolute;
-  padding: 0 10px;
-  top: 0;
+.new1 {
+  left: 460px;
+  position: absolute;
 }
 
-#asics {
-  position:absolute;
-  padding: 0 10px;
-  top: 105px;
-}
-.btn-white {
-  background-color: rgb(245, 245, 245);
-  border-color: rgb(227, 227, 227);
-}
 ul.posts {
   list-style-type: none;
 }
