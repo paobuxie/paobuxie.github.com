@@ -16,7 +16,7 @@ body {
 
 #banner {
   position: relative;
-  width: 40%;
+  width: 450px;
   height:200px;
   color: rgb(255,255,255);
   border-bottom: 0px none;
@@ -49,7 +49,7 @@ body {
 
 .new1 {
   position: absolute;
-  left: 460px;
+  left: 455px;
 }
 
 ul.posts {
