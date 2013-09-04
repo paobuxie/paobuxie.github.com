@@ -46,8 +46,8 @@ body {
 }
 
 .new1 {
-  left: 460px;
   position: absolute;
+  left: 460px;
 }
 
 ul.posts {
