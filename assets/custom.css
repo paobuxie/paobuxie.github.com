@@ -31,6 +31,22 @@ body {
   position: relative;
 }
 
+.word {
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  padding: 0px 1px;
+  top: -1px;
+  font-size: 12px;
+  text-align: left;
+  height: 24px;
+  line-height: 24px;
+  background: none repeat scroll 0% 0% rgb(0, 0, 0);
+  text-indent: 10px;
+  opacity: 0.5;
+  z-index: 2;
+}
+
 #nb {
   position:absolute;
   padding: 0 10px;
