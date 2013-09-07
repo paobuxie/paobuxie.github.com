@@ -75,10 +75,10 @@ ul.posts {
 }
 
 
-.flink {
-  position: absolute;
-  bottom: 80px;
+#flink {
+  clear: both;
   width: 100%;
+  margin: 8px 2px;
 }
 
 #footer { 
