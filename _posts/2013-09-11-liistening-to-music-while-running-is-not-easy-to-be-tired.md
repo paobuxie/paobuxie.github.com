@@ -21,3 +21,7 @@ tags: [跑步, 听歌]
 转载来自：
 
 http://paper.people.com.cn/smsb/html/2013-09/10/content_1296405.htm
+
+相关报道：
+
+http://www.commonhealth.com.tw/article/article.action?id=5051853
