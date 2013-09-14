@@ -4,7 +4,7 @@ title: 跑步听歌，不容易疲惫
 source: 生命时报
 author: "龚  蕊"
 description: "运动时听适当的音乐可以增强锻炼效果。据台湾《康健》杂志最新报道，节奏轻快的音乐能够分散身体运动时的疲惫感，延长运动的时间。"
-category: marathon
+category: skills
 tags: [跑步, 听歌]
 ---
 
