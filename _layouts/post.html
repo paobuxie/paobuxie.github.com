@@ -31,7 +31,7 @@ var duoshuoQuery = {short_name:"paobuxie"};
         <h3 class="panel-title">文章属性</h3>
       </div>
       <div id="attribute">
-        {% if page.author %}<p>原标题：{{ page.orltitle }}</p>{% endif %}
+        {% if page.orltitle %}<p>原标题：{{ page.orltitle }}</p>{% endif %}
         {% if page.author %}<p>作者：{{ page.author }}</p>{% endif %}
         {% if page.source %}<p>来源：{{ page.source }}</p>{% endif %}
         <p>标签：{{ page.tags | join:',' }}</p>
