@@ -57,6 +57,10 @@ body {
   left: 455px;
 }
 
+.content p img {
+  width:634px;
+}
+
 ul.posts {
   list-style-type: none;
 }
