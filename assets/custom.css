@@ -57,6 +57,11 @@ body {
   left: 455px;
 }
 
+.new2 {
+  position: absolute;
+  left: 620px;
+}
+
 #content p img{
   width:634px;
 }
