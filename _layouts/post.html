@@ -39,7 +39,7 @@ var duoshuoQuery = {short_name:"paobuxie"};
         <ul>
         <li>{% if page.orltitle %}原标题：{{ page.orltitle }}{% endif %}</li>
         <li>{% if page.author %}作者：{{ page.author }}{% endif %}</li>
-        <li>{% if page.source %}来源：{{ page.source }}{% endif %}</li>
+        <li>{% if page.source %}来源：<a href="{{ page.sourceurl }}" target="_blank">{{ page.source }}</a>{% endif %}</li>
         <li>标签：{{ page.tags | join:',' }}</li>
         <li>日期：{{ page.date | date:"%Y 年 %m 月 %d 日" }}</li>
         </ul>
