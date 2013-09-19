@@ -1,5 +1,6 @@
 ---
 layout: post
+author: "钱江晚报"
 title: "全民马拉松时代：报名改秒杀"
 source: "钱江晚报"
 sourceurl: "http://qjwb.zjol.com.cn/html/2013-09/18/content_2333323.htm"

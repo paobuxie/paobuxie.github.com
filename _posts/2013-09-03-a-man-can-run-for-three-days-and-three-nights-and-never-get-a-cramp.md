@@ -1,7 +1,8 @@
 ---
 layout: post
+author: "自由時報"
 title: "美长跑选手 可跑三天三夜不休息"
-source: 自由時報
+source: "自由時報"
 sourceurl: "http://iservice.libertytimes.com.tw/liveNews/news.php?no=862267"
 description: "无论是一般人或是长跑选手，进行长跑后总是得休息，但来自美国的长跑选手卡奈兹（Dean Karnazes）却可以3天3夜的持续跑步不休息，好像可以跑上一辈子般，到底是什么塬因可以让他几乎不休息的跑下去？"
 category: marathon
