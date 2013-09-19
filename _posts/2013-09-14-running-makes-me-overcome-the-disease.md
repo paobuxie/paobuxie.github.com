@@ -2,7 +2,7 @@
 layout: post
 title: 跑步让我战胜病魔
 source: 文汇报
-sourceurl:"http://wenhui.news365.com.cn/ewenhui/whb/html/2013-09/13/content_70.htm"
+sourceurl: "http://wenhui.news365.com.cn/ewenhui/whb/html/2013-09/13/content_70.htm"
 author: "叶争和"
 description: "清晰记得那是1990年3月1日凌晨，一阵剧烈的腹痛将我从睡梦中惊醒。经过半个多月的检查后，一纸“原发性肝癌三期”的诊断让我眼前一片漆黑，甚至坚持要过常人都会跳过的40岁生日——我认定那是自己人生的最后一个生日。"
 category: health
