@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div id="main">
+  <ul class="breadcrumb">
+    <li><a href="/">首页</a><li>
+    <li><a href="/{{ category }}">{{ page.category }}</a><li>
+    <ul>
 <div class="pull-left" id="post">
 <div class="well" id="content">  
 <h2>{{ page.title }}</h2>
@@ -39,3 +44,4 @@ var duoshuoQuery = {short_name:"paobuxie"};
       </div>
     </div>
   </div>
+</div>
