@@ -108,8 +108,12 @@ ul.breadcrumb {
   margin: 8px 2px;
 }
 
-footer span { 
-  padding: 0px 35px;
+footer .progress { 
+  margin-bottom:5px;
+}
+
+footer .copyright { 
+  padding: 5px 35px;
 }
 
 #post {
