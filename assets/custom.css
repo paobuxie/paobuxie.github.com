@@ -82,7 +82,7 @@ body {
   width:634px;
 }
 
-ul.posts {
+.panel-body ul {
   list-style-type: none;
 }
 

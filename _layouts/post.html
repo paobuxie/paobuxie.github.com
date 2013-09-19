@@ -35,12 +35,14 @@ var duoshuoQuery = {short_name:"paobuxie"};
       <div class="panel-heading">
         <h3 class="panel-title">文章属性</h3>
       </div>
-      <div id="panel-body">
-        {% if page.orltitle %}<p>原标题：{{ page.orltitle }}</p>{% endif %}
-        {% if page.author %}<p>作者：{{ page.author }}</p>{% endif %}
-        {% if page.source %}<p>来源：{{ page.source }}</p>{% endif %}
-        <p>标签：{{ page.tags | join:',' }}</p>
-        <p>日期：{{ page.date | date:"%Y 年 %m 月 %d 日" }}</p>
+      <div class="panel-body">
+        <ul>
+        <li>{% if page.orltitle %}原标题：{{ page.orltitle }}{% endif %}</li>
+        <li>{% if page.author %}作者：{{ page.author }}{% endif %}</li>
+        <li>{% if page.source %}来源：{{ page.source }}{% endif %}</li>
+        <li>标签：{{ page.tags | join:',' }}</li>
+        <li>日期：{{ page.date | date:"%Y 年 %m 月 %d 日" }}</li>
+        </ul>
       </div>
     </div>
   </div>
