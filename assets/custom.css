@@ -97,8 +97,8 @@ body {
   width: 30%;
 }
 
-#attribute {
-  padding: 10px 15px;
+ul.breadcrumb {
+  margin-bottom:5px;
 }
 
 
