@@ -2,6 +2,10 @@ a {
   text-decoration: none; 
 }
 
+hr{
+  margin: 5px auto;
+}
+
 body {
   background-image:url('cardboard_flat.png');
 }
