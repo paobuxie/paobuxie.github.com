@@ -110,7 +110,7 @@ body {
 }
 
 .sidebar {
-  width: 330px;
+  width: 290px;
 }
 
 ul.breadcrumb {
@@ -133,6 +133,6 @@ footer .copyright {
 }
 
 #post {
-  width: 640px;
+  width: 680px;
   padding-right: 5px;
 }
