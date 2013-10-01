@@ -4,6 +4,9 @@ title: 跑步,跑步鞋推荐,跑步鞋品牌
 tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站。在此你可以了解到和跑步，跑步鞋相关的知识，也会了解到一些有趣的跑步故事。"
 ---
+  <ul class="breadcrumb">
+    <li><a href="/">首页</a></li>
+  </ul>
 
 <div class="pull-left">
   <div class="posts" id="content">
@@ -23,12 +26,12 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
   <ul class="pagination">
   {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <li class="previous"><a href="/">«</a></li>
+        <li class="previous"><a href="/">上一页</a></li>
       {% else %}
-        <li><a href="{{ paginator.previous_page_path }}">«</a></li>
+        <li><a href="{{ paginator.previous_page_path }}">上一页</a></li>
       {% endif %}
   {% else %}
-     <li class="previous disabled"><a href="#">«</a></li>
+     <li class="previous disabled"><a href="#">上一页</a></li>
   {% endif %}
 
       {% if paginator.page == 1 %}
@@ -46,9 +49,9 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
     {% endfor %}
 
   {% if paginator.next_page %}
-      <li><a href="{{ paginator.next_page_path }}">»</a></li>
+      <li><a href="{{ paginator.next_page_path }}">下一页</a></li>
   {% else %}
-      <li class="next disabled"><a href="#">»</a></li>
+      <li class="next disabled"><a href="#">下一页</a></li>
   {% endif %}
 </ul>
 </div>

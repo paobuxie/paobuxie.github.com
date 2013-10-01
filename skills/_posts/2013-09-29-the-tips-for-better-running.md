@@ -6,7 +6,7 @@ source: "微微健康网"
 sourceurl: "http://ydbj.vivijk.com/201204/239436.html"
 orltitle: "跑步的技巧分为三个阶段"
 description: "跑步是最好的健身方式，也是很多人减肥瘦身的选择。但是跑步也得掌握技巧，才能避免受伤。掌握跑步正确的姿势和技巧就能令你在运动中达到事半功倍的效果。"
-category: health
+category: skills
 tags: [跑步, 跑步技巧, 跑步减肥]
 ---
 

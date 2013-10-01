@@ -2,8 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}跑步鞋CC</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.category == "marathon" %}马拉松 - {% elsif page.category == "health" %}健康 - {% elsif page.category == "shoe" %}跑步鞋 - {% elsif page.category == "skills" %}跑步技巧 - {% else %}{{ page.category }}{% endif %}跑步鞋CC</title>
     <meta name="keywords" content="{{ page.tags | join: ', '}}" />
     {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css"> 
@@ -37,26 +36,22 @@
     
     <div class="container">
       <div class="page-header pull-left" id="banner">
-        <div class="row">
-            <h1>跑步鞋CC</h1>
-            <p class="lead">一个围绕跑步运动周边建立的小网站</p>
-        </div>
+        <h1 class="text-muted">跑步鞋CC</h1>
+        <div class="bottomword">一个围绕跑步运动周边建立的小网站</div>
       </div> 
       <div id="brand">
         <div class="new1">
           <div class="bottomword">美一男子连跑三天三夜</div>
-          <a href="/marathon/a-man-can-run-for-three-days-and-three-nights-and-never-get-a-cramp.html"><img src="/images/DK_V_Tuolumne_Meadows_Trail_Run.jpg"></img></a>
+          <a href="/marathon/a-man-can-run-for-three-days-and-three-nights-and-never-get-a-cramp.html"><img src="/images/DK_V_Tuolumne_Meadows_Trail_Run.jpg" /></a>
         </div>
         <div class="new2">
           <div class="topword">全名马拉松时代：报名改秒杀</div>
-          <a href="/marathon/general-marathon-times-sign-up-needs-to-seckill.html"><img alt="Mugiwara Marathon by LizzieT" width="350" src="/images/Mugiwara_Marathon_by_LizzieT_380.png"></img></a>
+          <a href="/marathon/general-marathon-times-sign-up-needs-to-seckill.html"><img alt="Mugiwara Marathon by LizzieT" width="350" src="/images/Mugiwara_Marathon_by_LizzieT_380.png" /></a>
         </div>
-        <div class="new3 alert alert-dismissable alert-danger">
+        <div class="new3 alert alert-dismissable alert-success">
                           <button type="button" class="close" data-dismiss="alert">×</button>
                                         <strong>注意，</strong><a class="alert-link" href="http://www.hzim.org/" title="杭州国际马拉松赛官网" target="_blank" rel="nofollow">杭州国际马拉松赛</a>现可报名！
         </div>
-      </div>
-    </div>
       </div>
     </div>
 
