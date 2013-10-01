@@ -96,7 +96,7 @@ body {
 }
 
 #content p img{
-  width:634px;
+  width:640px;
 }
 
 .panel-body ul {
@@ -109,6 +109,14 @@ body {
   color: #6e6e6e;
 }
 
+#post-pagination {
+  text-align: center;
+}
+
+#post-pagination ul{
+  margin: 0 auto;
+}
+
 .sidebar {
   width: 290px;
 }
@@ -116,7 +124,6 @@ body {
 ul.breadcrumb {
   margin-bottom:5px;
 }
-
 
 #flink {
   clear: both;
@@ -132,7 +139,7 @@ footer .copyright {
   padding: 5px 35px;
 }
 
-#post {
+.posts {
   width: 680px;
   padding-right: 5px;
 }

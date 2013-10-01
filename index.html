@@ -5,9 +5,9 @@ tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站。在此你可以了解到和跑步，跑步鞋相关的知识，也会了解到一些有趣的跑步故事。"
 ---
 
-<div class="pull-left" id="post">
+<div class="pull-left">
   <div class="posts" id="content">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <div class="well">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.description }}
@@ -18,6 +18,40 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
     </div>
     {% endfor %}
   </div>
+
+<div id="post-pagination">
+  <ul class="pagination">
+  {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <li class="previous"><a href="/">«</a></li>
+      {% else %}
+        <li><a href="{{ paginator.previous_page_path }}">«</a></li>
+      {% endif %}
+  {% else %}
+     <li class="previous disabled"><a href="#">«</a></li>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+        <li class="active"><a href="#">1</a></li>
+      {% else %}
+        <li><a href="/">1</a></li>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+        {% if count == paginator.page %}
+          <li class="active"><a href="#">{{ count }}</a></li>
+        {% else %}
+          <li><a href="/page/{{ count }}">{{ count }}</a></li>
+        {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path }}">»</a></li>
+  {% else %}
+      <li class="next disabled"><a href="#">»</a></li>
+  {% endif %}
+</ul>
+</div>
 </div>
   <div class="sidebar pull-left">
     <div class="panel panel-primary">
