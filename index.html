@@ -24,7 +24,8 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
 
 <div id="post-pagination">
   <ul class="pagination">
-  {% if paginator.previous_page %}
+  {% if paginator.page == 1 %}
+  {% elsif paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
         <li class="previous"><a href="/">上一页</a></li>
       {% else %}
@@ -51,7 +52,6 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
   {% if paginator.next_page %}
       <li><a href="{{ paginator.next_page_path }}">下一页</a></li>
   {% else %}
-      <li class="next disabled"><a href="#">下一页</a></li>
   {% endif %}
 </ul>
 </div>
