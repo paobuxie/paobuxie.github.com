@@ -1,0 +1,16 @@
+<div class="sidebar pull-right">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">文章属性</h3>
+    </div>
+    <div class="panel-body">
+      <ul>
+        <li>{% if page.orltitle %}原标题：{{ page.orltitle }}{% endif %}</li>
+        <li>{% if page.author %}作者：{{ page.author }}{% endif %}</li>
+        <li>{% if page.source %}来源：<a href="{{ page.sourceurl }}" rel="nofollow" target="_blank">{{ page.source }}</a>{% endif %}</li>
+        <li>标签：{{ page.tags | join:',' }}</li>
+        <li>日期：{{ page.date | date:"%Y 年 %m 月 %d 日" }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

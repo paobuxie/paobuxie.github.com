@@ -1,54 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.category == "marathon" %}马拉松 - {% elsif page.category == "health" %}健康 - {% elsif page.category == "shoe" %}跑步鞋 - {% elsif page.category == "skills" %}跑步技巧 - {% else %}{{ page.category }}{% endif %}跑步鞋CC</title>
-    <meta name="keywords" content="{{ page.tags | join: ', '}}" />
-    {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="/assets/custom.css"> 
-    <script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?7a91af3887d98b5a8f1f2741f664cbec";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-    </script>
-  </head>
-  
-  <body>
-
-    <div class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-        <a class="navbar-brand" href="/">{{ site.name }}</a>
-        </div>
-        <div class="navbar-collapse collapse navbar-inverse-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">首页</a></li>
-            <li><a href="/about.html">关于</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    
-<div class="container">
+{% include head.html %}
+<body>
+{% include header.html %}
+<div class="container" id="main">
+{{ content }}
 </div>
-
-    <div class="container" id="main">
-      {{ content }}
-    </div>
-
-    <footer>
-      <div class="container">
-        <div class="progress progress-striped active">
-          <div class="progress-bar progress-bar-info" style="width: 5%;"></div>
-        </div>
-        <span class="copyright pull-right">Powered by Jekyll</span>
-        <span class="copyright pull-left">&copy; 2013 跑步鞋CC</span>
-      </div>
-    </footer>
-  </body>
+{% include footer.html %}
+</body>
 </html>

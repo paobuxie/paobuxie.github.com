@@ -4,9 +4,10 @@ title: 跑步,跑步鞋推荐,跑步鞋品牌
 tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站。在此你可以了解到和跑步，跑步鞋相关的知识，也会了解到一些有趣的跑步故事。"
 ---
-  <ul class="breadcrumb">
-    <li class="active">首页</li>
-  </ul>
+
+<ul class="breadcrumb">
+  <li class="active">首页</li>
+</ul>
 
 <div class="pull-left">
   <div class="posts" id="content">
@@ -24,15 +25,13 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
 
 <div id="post-pagination">
   <ul class="pagination">
-  {% if paginator.page == 1 %}
-  {% elsif paginator.previous_page %}
+  {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
         <li class="previous"><a href="/">上一页</a></li>
       {% else %}
         <li><a href="{{ paginator.previous_page_path }}">上一页</a></li>
       {% endif %}
   {% else %}
-     <li class="previous disabled"><a href="#">上一页</a></li>
   {% endif %}
 
       {% if paginator.page == 1 %}
@@ -51,37 +50,10 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
 
   {% if paginator.next_page %}
       <li><a href="{{ paginator.next_page_path }}">下一页</a></li>
-  {% else %}
   {% endif %}
 </ul>
 </div>
 </div>
-  <div class="sidebar pull-left">
-    <div class="panel panel-primary">
-     <div class="panel-heading">
-       <h3 class="panel-title">最新文章</h3>
-     </div>
-     <div class="panel-body">
-       <ul>
-         {% for post in site.posts %}
-           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-         {% endfor %}
-       </ul>
-     </div>
-  </div>
- </div>
- {% if paginator.page == 1 %}
- <div id="flink">
-   <h3 class="label label-danger">友情链接</h3>
-    <a href="http://www.xmstsm.net/" class="label label-success" target="_blank">库存鞋</a>
-    <a href="http://www.ytyuhui.com/" class="label label-success" target="_blank">除臭鞋垫</a>
-    <a href="http://www.guanyaty.com/" class="label label-success" target="_blank">塑胶跑道</a>
-    <a href="http://www.sjpd88.com/" class="label label-success" target="_blank">塑胶跑道</a>
-    <a href="http://www.cmeint.net/" class="label label-success" target="_blank">塑胶跑道</a>
-    <a href="http://www.qqtyyp.com/" class="label label-success" target="_blank">体育用品</a>
-    <a href="http://www.ydl123.com/" class="label label-success" target="_blank">沈阳运动健身</a>
-    <a href="http://www.66weiyou.com/zt/hk/" class="label label-success" target="_blank">香港一日游</a>
-    <a href="http://www.paixie.net/yearcon/" class="label label-success" target="_blank">意尔康</a>
- </div>
- {% else %}
- {% endif %}
+
+{% include indexsidebar.html %}
+{% include friendlinks.html %}
