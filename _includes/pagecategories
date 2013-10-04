@@ -1,1 +1,1 @@
-{% if page.category == "marathon" %}马拉松{% elsif page.category == "health" %}健康{% elsif page.category == "shoe" %}跑步鞋{% elsif page.category == "skills" %}跑步技巧{% else %}{{ page.category }}{% endif %}
+{% if page.category == "marathon" %}马拉松{% elsif page.category == "health" %}健康{% elsif page.category == "shoe" %}跑步鞋{% elsif page.category == "skills" %}跑步技巧{% elsif page.category == "moive" %}跑步电影{{% endif %}
