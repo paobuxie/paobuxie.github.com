@@ -5,25 +5,28 @@ tags: [跑步鞋，跑鞋，跑步鞋推荐，跑步鞋品牌，跑步]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站。在此你可以了解到和跑步，跑步鞋相关的知识，也会了解到一些有趣的跑步故事。"
 ---
 
-<ul class="breadcrumb">
-  <li class="active">首页</li>
-</ul>
+<nav>
+  <ul class="breadcrumb">
+    <li class="active">首页</li>
+  </ul>
+</nav>
 
-<div class="pull-left">
-  <div class="posts" id="content">
+<section class="pull-left" id="posts">
     {% for post in paginator.posts %}
-    <div class="well">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <article  class="well">
+      <header>
+        <a href="/{{ post.category }}/" class="btn btn-warning btn-sm pull-right">{% include categories %}</a>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      </header>
       {{ post.description }}
       <hr>
-      <div class="postinfo">
-        <div class="pull-right">发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}</div>{% if post.author %}作者：<div class="label label-info">{{ post.author }}</div>{% endif %} 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
-      </div>
-    </div>
+      <footer>
+        <div class="pull-right">{{ post.date | date:" %Y 年 %m 月 %d 日"}}</div> 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
+      </footer>
+    </article>
     {% endfor %}
-  </div>
 
-<div id="post-pagination">
+<nav id="post-pagination">
   <ul class="pagination">
   {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
@@ -31,15 +34,12 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
       {% else %}
         <li><a href="{{ paginator.previous_page_path }}">上一页</a></li>
       {% endif %}
-  {% else %}
   {% endif %}
-
       {% if paginator.page == 1 %}
         <li class="active"><a href="#">1</a></li>
       {% else %}
         <li><a href="/">1</a></li>
       {% endif %}
-
     {% for count in (2..paginator.total_pages) %}
         {% if count == paginator.page %}
           <li class="active"><a href="#">{{ count }}</a></li>
@@ -47,13 +47,12 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
           <li><a href="/page/{{ count }}">{{ count }}</a></li>
         {% endif %}
     {% endfor %}
-
   {% if paginator.next_page %}
       <li><a href="{{ paginator.next_page_path }}">下一页</a></li>
   {% endif %}
 </ul>
-</div>
-</div>
+</nav>
+</section>
 
-{% include indexsidebar.html %}
-{% include friendlinks.html %}
+{% include indexsidebar %}
+{% include friendlinks %}

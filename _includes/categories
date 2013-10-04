@@ -1,0 +1,1 @@
+{% if post.category == "marathon" %}马拉松{% elsif post.category == "health" %}健康{% elsif post.category == "shoe" %}跑步鞋{% elsif post.category == "skills" %}跑步技巧{% else %}{{ post.category }}{% endif %}

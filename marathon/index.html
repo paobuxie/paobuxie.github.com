@@ -4,38 +4,15 @@ title: 半马,全马- 马拉松
 tags: [马拉松, 马拉松跑步, 半马, 全马]
 description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站。在此你可以了解到和跑步，跑步鞋相关的知识，也会了解到一些有趣的跑步故事。"
 ---
-
+<nav>
   <ul class="breadcrumb">
     <li><a href="/">首页</a></li>
     <li class="active">马拉松<li>
   </ul>
-
-<div class="pull-left">
-  <div class="posts" id="content">
-     {% for post in site.categories.marathon %}
-    <div class="well">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.description }}
-      <hr>
-      <div class="postinfo">
-        <div class="pull-right">发布于{{ post.date | date:" %Y 年 %m 月 %d 日"}}</div>{% if post.author %}作者：<div class="label label-info">{{ post.author }}</div>{% endif %} 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
-  <div class="sidebar pull-left">
-    <div class="panel panel-primary">
-     <div class="panel-heading">
-       <h3 class="panel-title">最新文章</h3>
-     </div>
-     <div class="panel-body">
-       <ul>
-         {% for post in site.posts %}
-           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-         {% endfor %}
-       </ul>
-     </div>
-  </div>
- </div>
+</nav>
+<section class="pull-left" id="posts">
+{% for post in site.categories.marathon %}
+{% include postslist%}
+{% endfor %}
+</section>
+{% include indexsidebar %}

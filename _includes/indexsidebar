@@ -1,4 +1,4 @@
-<div class="sidebar pull-left">
+<aside class="sidebar pull-right">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h3 class="panel-title">最新文章</h3>
@@ -10,5 +10,5 @@
       {% endfor %}
       </ul>
     </div>
- </div>
-</div>
+  </div>
+</aside>

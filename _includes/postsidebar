@@ -1,4 +1,4 @@
-<div class="sidebar pull-right">
+<aside class="sidebar pull-right">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h3 class="panel-title">文章属性</h3>
@@ -13,4 +13,4 @@
       </ul>
     </div>
   </div>
-</div>
+</aside>

@@ -21,11 +21,36 @@ body {
 }
 
 .well {
+  border: 1px solid #ddd;
   margin-bottom: 5px;
-  padding-top: 0px;
+  padding-top: 0;
+  box-shadow: none;
+  position:relative;
 }
 
-#content p img{
+#posts {
+  width: 675px;
+  margin-right: 5px;
+}
+
+#posts .btn{
+  font-size: 14px;
+}
+
+#posts header h3 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+#posts header h3 a{
+  font-size: 20px;
+}
+
+#posts footer {
+  color: #6e6e6e;
+}
+
+#posts p img{
   width:634px;
 }
 
@@ -33,10 +58,6 @@ body {
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 0;
-}
-
-.postinfo {
-  color: #6e6e6e;
 }
 
 #post-pagination {
@@ -69,7 +90,3 @@ footer .copyright {
   padding: 5px 35px;
 }
 
-.posts {
-  width: 680px;
-  padding-right: 5px;
-}
