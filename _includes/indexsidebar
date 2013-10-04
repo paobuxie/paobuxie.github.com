@@ -17,7 +17,7 @@
     </div>
     <div class="panel-body">
       <nav>
-        <ul class="ds-recent-comments" data-num-items="10"></ul>
+        <ul class="ds-recent-comments" data-num-items="10" data-show-title="0"></ul>
       </nav>
     </div>
   </div>
