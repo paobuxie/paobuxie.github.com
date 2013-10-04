@@ -1,0 +1,18 @@
+---
+layout: default
+title: 跑步影片,马拉松电影 - 跑步电影
+tags: [跑步电影, 马拉松电影, 跑步影片]
+description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站。在此你可以了解到和跑步，跑步鞋相关的知识，也会了解到一些有趣的跑步故事。"
+---
+<nav>
+  <ul class="breadcrumb">
+    <li><a href="/">首页</a></li>
+    <li class="active">跑步电影<li>
+  </ul>
+</nav>
+<section class="pull-left" id="posts">
+{% for post in site.categories.movie %}
+{% include postslist %}
+{% endfor %}
+</section>
+{% include indexsidebar %}

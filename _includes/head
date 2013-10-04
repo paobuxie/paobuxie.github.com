@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.category == "marathon" %}马拉松 - {% elsif page.category == "health" %}健康 - {% elsif page.category == "shoe" %}跑步鞋 - {% elsif page.category == "skills" %}跑步技巧 - {% else %}{{ page.category }}{% endif %}跑步鞋CC</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.category == "marathon" %}马拉松 - {% elsif page.category == "health" %}健康 - {% elsif page.category == "shoe" %}跑步鞋 - {% elsif page.category == "skills" %}跑步技巧 - {% elsif page.category == "movie" %}跑步电影 - {% endif %}跑步鞋CC</title>
   <meta name="keywords" content="{{ page.tags | join: ', '}}" />
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css"> 
