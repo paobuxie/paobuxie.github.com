@@ -54,6 +54,13 @@ body {
   width:634px;
 }
 
+.panel {
+  margin-bottom: 5px;
+}
+.panel #ds-recent-comments li.ds-comment{
+  border: none;
+}
+
 .panel-body ul {
   list-style-type: none;
   padding-left: 0;
