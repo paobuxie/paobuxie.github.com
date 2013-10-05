@@ -25,6 +25,10 @@ body {
   margin-bottom: 5px;
 }
 
+.carousel-indicators li {
+  border-radius: 0;
+}
+
 .carousel-control.left, .carousel-control.right {
   width: 10%;
 }
