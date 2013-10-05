@@ -12,7 +12,7 @@ tags: [马拉松, 北马, 报名]
 
 *《 钱江晚报 》（ 2013年09月18日   第 16 版）*
 
-![Mugiwara Marathon by LizzieT](/images/Mugiwara_Marathon_by_LizzieT.png)
+![Mugiwara Marathon by LizzieT](/images/2013-09-18-general-marathon-times-sign-up-needs-to-seckill.png)
 
 北马3万个参赛名额13个半小时内被一抢而空，创造了国内马拉松赛事报名的新纪录。昨天开始报名的上海马拉松参赛名额也遭遇疯抢，网站拥堵到无法登陆，不到五个小时，组委会就发布公告，网上报名名额已经全部被抢光。
 

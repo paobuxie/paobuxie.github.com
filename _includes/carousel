@@ -1,0 +1,50 @@
+<!-- Carousel
+================================================== -->
+<section id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="/images/pace-maker.jpg">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>领跑人</h1>
+          <p>这是2012年上映的一部韩国电影，该片主要讲述一直担任马拉松赛的领跑人，此前的运动生涯一直都在为其他马拉松选手领跑和调整速度，第一次为了自己而参与了整个马拉松竞赛的感人故事。</p>
+          <p><a class="btn btn-large btn-primary" href="/movie/pace-maker.html">查看更多</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/images/happy_girl_running_in_beach.jpg">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>女性坚持慢跑可有效减肥</h1>
+          <p>跑步是锻炼耐力的一项运动，当运动时间30分钟左右之后，体内的脂肪也开始参与人体能量的供应，且比重会随着时间逐渐增加，而女性皮下脂肪平均含量占体重的四分之一左右，远大于男性的六分之一左右。</p>
+          <p><a class="btn btn-large btn-primary" href="/health/woman-stick-to-jogging-can-lose-weight.html">查看更多</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/images/Mugiwara_Marathon_by_LizzieT.png">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>全民马拉松时代：报名改秒杀</h1>
+          <p>北马3万个参赛名额13个半小时内被一抢而空，创造了国内马拉松赛事报名的新纪录。昨天开始报名的上海马拉松参赛名额也遭遇疯抢，网站拥堵到无法登陆，不到五个小时，组委会就发布公告，网上报名名额已经全部被抢光。</p>
+          <p><a class="btn btn-large btn-primary" href="/marathon/general-marathon-times-sign-up-needs-to-seckill.html">查看更多</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  
+</section>
+<!-- /.carousel -->
