@@ -25,6 +25,24 @@ body {
   margin-bottom: 5px;
 }
 
+.carousel-control.left, .carousel-control.right {
+  width: 10%;
+}
+
+.carousel-control .icon-prev {
+  background-image:url(/assets/Left.png);
+}
+
+.carousel-control .icon-next{
+  background-image:url(/assets/Right.png);
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next{
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+}
+
 .well {
   border: 1px solid #ddd;
   margin-bottom: 5px;

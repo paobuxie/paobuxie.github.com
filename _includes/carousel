@@ -1,5 +1,3 @@
-<!-- Carousel
-================================================== -->
 <section id="myCarousel" class="carousel slide">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -47,4 +45,3 @@
     <span class="icon-next"></span>
   </a>  
 </section>
-<!-- /.carousel -->
