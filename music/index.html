@@ -1,0 +1,18 @@
+---
+layout: default
+title: 跑步歌曲,跑步轻音乐 - 跑步音乐
+tags: [跑步音乐, 跑步歌曲, 跑步轻音乐]
+description: ""
+---
+<nav>
+  <ul class="breadcrumb">
+    <li><a href="/">首页</a></li>
+    <li class="active">跑步音乐<li>
+  </ul>
+</nav>
+<section class="pull-left" id="posts">
+{% for post in site.categories.music %}
+{% include postslist %}
+{% endfor %}
+</section>
+{% include indexsidebar %}

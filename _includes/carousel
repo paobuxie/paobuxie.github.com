@@ -6,10 +6,20 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
+      <img src="/images/running-with-music.jpg">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>《奔跑》</h1>
+          <p>第一首歌献给国产的《奔跑》，只闻其名便知这首歌是适合跑步时所聆听的歌曲。跑步音乐，可以分散身体运动时的疲惫感，延长运动的时间。判断一首歌是否适合跑步，比较重要的一点是要有节奏感，继而是要有激情，这首歌无疑都具备了。</p>
+          <p><a class="btn btn-large btn-primary" href="/music/running.html">查看更多</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
       <img src="/images/pace-maker.jpg">
       <div class="container">
         <div class="carousel-caption">
-          <h1>领跑人</h1>
+          <h1>《领跑人》</h1>
           <p>这是2012年上映的一部韩国电影，该片主要讲述一个马拉松赛的领跑人，此前的运动生涯一直都在为其他马拉松选手领跑和调整速度，第一次为了自己而参与了整个马拉松竞赛的感人故事。</p>
           <p><a class="btn btn-large btn-primary" href="/movie/pace-maker.html">查看更多</a></p>
         </div>
