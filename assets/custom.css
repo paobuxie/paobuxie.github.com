@@ -31,10 +31,6 @@ body {
   border-radius: 0;
 }
 
-.carousel-control.left, .carousel-control.right {
-  width: 10%;
-}
-
 .carousel-control .icon-prev {
   background: url("/assets/arrow.png") no-repeat scroll 0% 0% transparent;
 }
