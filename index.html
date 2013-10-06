@@ -23,7 +23,7 @@ description: "跑步鞋CC是一个围绕跑步运动周边而建立的小网站�
       {{ post.description }}
       <hr>
       <footer>
-        <div class="pull-right">{{ post.date | date:" %Y 年 %m 月 %d 日"}}</div> 标签：<div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
+        <div class="pull-right">{{ post.date | date:" %Y 年 %m 月 %d 日"}}</div><div class="label label-default">{{ post.tags | join: '</div> <div class="label label-default">'}}</div>
       </footer>
     </article>
     {% endfor %}
