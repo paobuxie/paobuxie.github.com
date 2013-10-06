@@ -36,16 +36,16 @@ body {
 }
 
 .carousel-control .icon-prev {
-  background-image:url(/assets/Left.png);
+  background: url("/assets/arrow.png") no-repeat scroll 0% 0% transparent;
 }
 
 .carousel-control .icon-next{
-  background-image:url(/assets/Right.png);
+  background: url("/assets/arrow.png") no-repeat scroll 100% 0% transparent;
 }
 
 .carousel-control .icon-prev, .carousel-control .icon-next{
-  width: 48px;
-  height: 48px;
+  width: 35px;
+  height: 34px;
   font-size: 0;
 }
 
