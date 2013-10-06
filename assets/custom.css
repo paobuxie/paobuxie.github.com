@@ -81,7 +81,7 @@ body {
 }
 
 #post img{
-  width:634px;
+  max-width: 634px;
 }
 
 .panel {

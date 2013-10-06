@@ -4,6 +4,7 @@
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
     <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
   </ol>
   <div class="carousel-inner">
     <div class="item active">
@@ -13,6 +14,16 @@
           <h1>《奔跑》</h1>
           <p>第一首歌献给国产的《奔跑》，只闻其名便知这首歌是适合跑步时所聆听的歌曲。跑步音乐，可以分散身体运动时的疲惫感，延长运动的时间。判断一首歌是否适合跑步，比较重要的一点是要有节奏感，继而是要有激情，这首歌无疑都具备了。</p>
           <p><a class="btn btn-large btn-primary" href="/music/running.html">查看更多</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/images/8-stages-of-marathon-running.png">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>马拉松跑者的8种心境</h1>
+          <p>没有经历过这8个阶段，别说你跑过马拉松！这是 BuzzFeed 所推出的动画片，告诉你马拉松跑者会经历过的8个阶段，这8种心境简直是一出内心的小剧场，跑过马拉松的人不可不看，没跑过的也要参考！</p>
+          <p><a class="btn btn-large btn-primary" href="/marathon/8-stages-of-marathon-running.html">查看更多</a></p>
         </div>
       </div>
     </div>
