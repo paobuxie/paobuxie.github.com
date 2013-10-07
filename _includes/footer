@@ -7,7 +7,7 @@
     <div class="copyright pull-left">&copy; 2013 跑步鞋CC</div>
   </div>
 </footer>
-<script src="/assets/jquery-2.0.3.min.js"></script>
+<script src="/assets/jquery-1.10.2.min.js"></script>
 <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script type='text/javascript'>
   $(document).ready(function() {
