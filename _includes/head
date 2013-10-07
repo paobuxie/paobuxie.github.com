@@ -3,12 +3,12 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}{% if page.category %}{% include pagecategories %} - {% endif %}跑步鞋CC</title>
   <meta name="keywords" content="{{ page.tags | join: ', '}}" />
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
-  <!--[if lt IE 9]>
-  <script src="/assets/html5shiv.js"></script>
-  <![endif]-->
   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css"> 
   <link rel="stylesheet" href="/assets/animate.min.css"> 
   <link rel="stylesheet" href="/assets/custom.css"> 
+  <!--[if lt IE 9]>
+  <script src="/assets/html5shiv.js"></script>
+  <![endif]-->
   <script>
     var _hmt = _hmt || [];
     (function() {
