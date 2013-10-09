@@ -6,6 +6,13 @@
       </div>
       <nav class="navbar-collapse collapse navbar-inverse-collapse">
         <ul class="nav navbar-nav">
+          <li><a href="/">首页</a></li>
+          <li><a href="/shoe">跑步鞋</a></li>
+          <li><a href="/skills">跑步技巧</a></li>
+          <li><a href="/music">跑步音乐</a></li>
+          <li><a href="/movie">跑步电影</a></li>
+          <li><a href="/marathon">马拉松</a></li>
+          <li><a href="/health">健康</a></li>
           <li><a href="/about.html">关于</a></li>
         </ul>
       </nav>
