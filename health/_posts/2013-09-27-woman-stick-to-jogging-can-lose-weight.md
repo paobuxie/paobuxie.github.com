@@ -7,7 +7,7 @@ category: health
 tags: [跑步, 慢跑, 女性, 减肥]
 ---
 
-![beaches children happiness happy nature awesome wallpaper](/images/2013-09-27-woman-stick-to-jogging-can-lose-weight.md.jpg)
+![beaches children happiness happy nature awesome wallpaper](/images/2013-09-27-woman-stick-to-jogging-can-lose-weight.jpg)
 
 跑步是锻炼耐力的一项运动，当运动时间30分钟左右之后，体内的脂肪也开始参与人体能量的供应，且比重会随着时间逐渐增加，而女性皮下脂肪平均含量占体重的四分之一左右，远大于男性的六分之一左右。可见，在跑步运动中，女性的能量供应比男性要充足得多，能有效缓解疲劳的产生。
 
