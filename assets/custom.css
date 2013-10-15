@@ -1,6 +1,3 @@
-* {
-  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
-}
 a { 
   text-decoration: none; 
 }
@@ -12,13 +9,14 @@ hr{
 body {
   background-image: url('cardboard_flat.png');
   background-attachment: fixed;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
 }
 
 .container {
-  width: 970px !important;
-  max-width: 970px !important;
-  min-width: 970px !important;
   padding: 0;
+  min-width: 970px !important;
+  max-width: 970px !important;
+  width: 970px !important;
 }
 
 .navbar {
@@ -30,9 +28,9 @@ body {
 }
 
 .carousel-indicators li {
-  background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .carousel-control .icon-prev {
@@ -50,16 +48,16 @@ body {
 }
 
 .well {
-  border: 1px solid #ddd;
+  position:relative;
   margin-bottom: 5px;
   padding-top: 0;
+  border: 1px solid #ddd;
   box-shadow: none;
-  position:relative;
 }
 
 #posts {
-  width: 675px;
   margin-right: 5px;
+  width: 675px;
   line-height: 25px;
 }
 
@@ -92,9 +90,9 @@ body {
 }
 
 .panel-body ul {
-  list-style-type: none;
-  padding-left: 0;
   margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 #post-pagination {
@@ -115,8 +113,8 @@ ul.breadcrumb {
 
 #flink {
   clear: both;
-  width: 100%;
   margin: 8px 2px;
+  width: 100%;
 }
 
 footer .progress { 
