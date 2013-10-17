@@ -78,6 +78,9 @@ body {
   color: #6e6e6e;
 }
 
+#post h2{
+  font-size: 22px;
+}
 #post img{
   max-width: 634px;
 }
