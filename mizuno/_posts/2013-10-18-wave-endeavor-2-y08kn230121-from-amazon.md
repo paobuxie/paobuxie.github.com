@@ -13,7 +13,7 @@ tags: [美津浓跑步鞋, 美津浓, mizuno, WAVE ENDEAVOR 2]
 
 WAVE ENDEAVOR 2 是美津浓的减震系列跑步鞋，具有轻质、透气、减震性良好的优点，适合慢跑训练、平时穿着，亦适合跑马拉松。
 
-<a class="btn btn-lg btn-success" href="http://www.amazon.cn/dp/B00ASW5J7E?tag=paobuxie-23" target="_blank">购买链接</a>
+<a class="btn btn-lg btn-success" href="http://www.amazon.cn/dp/B00ASW5J7E?tag=paobuxie-23" target="_blank">点此购买</a>
 
 ![WAVE ENDEAVOR 2](http://ec4.images-amazon.com/images/I/81JxAlCKMKL._AA1500_.jpg)
 
