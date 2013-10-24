@@ -3,6 +3,7 @@ layout: post
 title: "美津浓 男式跑步鞋 WAVE ENDEAVOR 2 亚马逊中国246.7包邮"
 author: 小F
 description: "WAVE ENDEAVOR 2 是美津浓的减震系列跑步鞋，具有轻质、透气、减震性良好的优点，适合慢跑训练、平时穿着，亦适合跑马拉松。现在这个季节特别适合跑步，赶紧穿起跑鞋跑起来吧！"
+image: "http://ec4.images-amazon.com/images/I/81JxAlCKMKL._AA1500_.jpg"
 category: mizuno
 tags: [美津浓跑步鞋, 美津浓, mizuno, WAVE ENDEAVOR 2]
 ---
