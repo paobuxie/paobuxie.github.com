@@ -1,0 +1,18 @@
+---
+layout: default
+title: 新百伦
+tags: [新百伦, newbalance, 新百伦跑步鞋]
+description: "新百伦New Balance，1906年，William J. Riley先生在美国马拉松之城波士顿成立，现已成为众多成功企业家和政治领袖爱用的品牌，在美国及许多国家被誉为“总统慢跑鞋”，“慢跑鞋之王”。"
+---
+<nav>
+  <ul class="breadcrumb">
+    <li><a href="/">首页</a></li>
+    <li class="active">新百伦<li>
+  </ul>
+</nav>
+<section class="pull-left" id="posts">
+{% for post in site.categories.newbalance %}
+{% include postslist %}
+{% endfor %}
+</section>
+{% include indexsidebar %}
