@@ -65,6 +65,10 @@ body {
   font-size: 14px;
 }
 
+#posts .well{
+  height:200px;
+}
+
 #posts header h3 {
   margin: 0;
   padding: 5px 0;
@@ -76,6 +80,9 @@ body {
 
 #posts footer {
   color: #6e6e6e;
+  position:absolute;
+  bottom:10px;
+  width:635px;
 }
 
 #post h1{
