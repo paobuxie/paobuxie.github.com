@@ -15,7 +15,7 @@ description: "跑步鞋CC是一个围绕跑步运动周边建立的小网站。�
 
 <section class="pull-left" id="posts">
     {% for post in paginator.posts %}
-    <article  class="well">
+    <article class="well lipost">
       <header>
         <a href="/{{ post.category }}/" class="btn btn-warning btn-sm pull-right">{% include categories %}</a>
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
