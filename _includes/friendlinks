@@ -16,5 +16,6 @@
   <a href="http://www.quguilin.net/" class="label label-success" target="_blank">桂林旅游论坛</a>
   <a href="http://www.qzre19.com/" class="label label-success" target="_blank">杭州西服定做</a>
   <a href="http://www.shoes-newbalance.com/" class="label label-success" target="_blank">新百伦旗舰店</a>
+  <a href="http://www.hnszz.com/" class="label label-success" target="_blank">塑身衣</a>
 </section>
 {% endif %}
